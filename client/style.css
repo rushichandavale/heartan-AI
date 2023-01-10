@@ -8,23 +8,7 @@
 }
 
 body {
-  background: #8c92ac;
-
-}
-
-.about h1{
-  text-align: center; 
-  color: #fff;
-  font-size: 35px;
-  margin-top: 0.5rem;
-}
-.about span{
-  display: flex;
-  justify-content: end;
-  text-align: end;
-  font-weight: bold;
-  padding: 5px 15px;
-  font-size:15px;
+  background: #343541;
 }
 
 #app {
@@ -111,13 +95,7 @@ body {
   max-width: 100%;
   overflow-x: scroll;
 
-  
-  /*
-   * white space refers to any spaces, tabs, or newline characters that are used to format the CSS code
-   * specifies how white space within an element should be handled. It is similar to the "pre" value, which tells the browser to treat all white space as significant and to preserve it exactly as it appears in the source code.
-   * The pre-wrap value allows the browser to wrap long lines of text onto multiple lines if necessary.
-   * The default value for the white-space property in CSS is "normal". This tells the browser to collapse multiple white space characters into a single space, and to wrap text onto multiple lines as needed to fit within its container.
-  */
+
   white-space: pre-wrap; 
 
   -ms-overflow-style: none;
@@ -164,4 +142,18 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+.about h1{
+  text-align: center; 
+  color: #fff;
+  font-size: 40px;
+  margin-top: 0.5rem;
+}
+.about span{
+  display: flex;
+  justify-content: center;
+  text-align: end;
+  font-weight: bold;
+  padding: 5px 15px;
+  font-size:15px;
 }
